@@ -14,7 +14,7 @@ MCTS is a search algorithm that efficiently explores large, discrete solution sp
 - Default Policy: Simulation of random actions to evaluate positions
 - Backpropagation: Updating node statistics based on simulation results
 
-In our implementation, MCTS is used to systematically explore the space of possible alpha formulas while maintaining a balance between exploration and exploitation.
+In my implementation, MCTS is used to systematically explore the space of possible alpha formulas while maintaining a balance between exploration and exploitation.
 
 ### Risk-Seeking Policy Optimization
 Unlike traditional approaches that optimize for average performance, RiskMiner implements a risk-seeking policy that focuses on discovering high-reward alphas. This is achieved through:
